@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1B2F027E28846D9D00A15402 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F027D28846D9D00A15402 /* MeetingHeaderView.swift */; };
 		1B2F0280288476A300A15402 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F027F288476A300A15402 /* ScrumProgressViewStyle.swift */; };
+		1B2F02822885AFF100A15402 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F02812885AFF100A15402 /* ScrumTimer.swift */; };
+		1B2F02842885B4C700A15402 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F02832885B4C700A15402 /* MeetingFooterView.swift */; };
+		1B2F02862885BAC100A15402 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F02852885BAC100A15402 /* AVPlayer+Ding.swift */; };
 		1B7BDEF9286B4BC40013363C /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BDEF8286B4BC40013363C /* ThemeView.swift */; };
 		1B7BDEFB286B4E6C0013363C /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BDEFA286B4E6C0013363C /* ThemePicker.swift */; };
 		1BF74A5E2862104400086AA2 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF74A5D2862104400086AA2 /* DetailEditView.swift */; };
@@ -30,6 +33,9 @@
 /* Begin PBXFileReference section */
 		1B2F027D28846D9D00A15402 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		1B2F027F288476A300A15402 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		1B2F02812885AFF100A15402 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		1B2F02832885B4C700A15402 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		1B2F02852885BAC100A15402 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		1B7BDEF8286B4BC40013363C /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		1B7BDEFA286B4E6C0013363C /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		1BF74A5D2862104400086AA2 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 				1B7BDEFA286B4E6C0013363C /* ThemePicker.swift */,
 				1B2F027D28846D9D00A15402 /* MeetingHeaderView.swift */,
 				1B2F027F288476A300A15402 /* ScrumProgressViewStyle.swift */,
+				1B2F02832885B4C700A15402 /* MeetingFooterView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -111,8 +118,10 @@
 		7CB413EF26EA97B300544BA7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1B2F02812885AFF100A15402 /* ScrumTimer.swift */,
 				7CB413F226EABF1D00544BA7 /* DailyScrum.swift */,
 				7CB413F026EA97C500544BA7 /* Theme.swift */,
+				1B2F02852885BAC100A15402 /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +217,8 @@
 			files = (
 				1B7BDEFB286B4E6C0013363C /* ThemePicker.swift in Sources */,
 				1B2F0280288476A300A15402 /* ScrumProgressViewStyle.swift in Sources */,
+				1B2F02842885B4C700A15402 /* MeetingFooterView.swift in Sources */,
+				1B2F02822885AFF100A15402 /* ScrumTimer.swift in Sources */,
 				7CB413F326EABF1D00544BA7 /* DailyScrum.swift in Sources */,
 				7CB413FB26EBAB0B00544BA7 /* DetailView.swift in Sources */,
 				1B2F027E28846D9D00A15402 /* MeetingHeaderView.swift in Sources */,
@@ -219,6 +230,7 @@
 				7CB413DF26EA824100544BA7 /* ScrumdingerApp.swift in Sources */,
 				1B7BDEF9286B4BC40013363C /* ThemeView.swift in Sources */,
 				7CB413F526EAC55200544BA7 /* CardView.swift in Sources */,
+				1B2F02862885BAC100A15402 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
