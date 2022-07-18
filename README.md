@@ -22,10 +22,10 @@ Start building apps with SwiftUI, a declarative framework that developers use to
 
 
 ## Chapter 5 State Management
-- [ ] Making Classes Observable
-- [ ] Responding to Events
-- [ ] Managing State and Life Cycle
-- [ ] Updating App Data
+- [x] Making Classes Observable
+- [x] Responding to Events
+- [x] Managing State and Life Cycle
+- [x] Updating App Data
 
 
 ## Chapter 6 Persistence and Concurrency
