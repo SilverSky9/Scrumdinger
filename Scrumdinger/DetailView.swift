@@ -6,7 +6,7 @@ import SwiftUI
 
 struct DetailView: View {
     @Binding var scrum: DailyScrum
-
+    
     @State private var data = DailyScrum.Data()
     @State private var isPresentingEditView = false
     
@@ -42,31 +42,30 @@ struct DetailView: View {
             }
         }
         .navigationTitle(scrum.title)
-        .toolbar{
-            Button("Edit"){
+        .toolbar {
+            Button("Edit") {
                 isPresentingEditView = true
                 data = scrum.data
             }
         }
-        .sheet(isPresented: $isPresentingEditView){
-            NavigationView{
+        .sheet(isPresented: $isPresentingEditView) {
+            NavigationView {
                 DetailEditView(data: $data)
                     .navigationTitle(scrum.title)
-                    .toolbar{
-                        ToolbarItem(placement: .cancellationAction){
-                            Button("Cancel"){
+                    .toolbar {
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button("Cancel") {
                                 isPresentingEditView = false
                             }
                         }
-                        ToolbarItem(placement: .confirmationAction){
-                            Button("Done"){
+                        ToolbarItem(placement: .confirmationAction) {
+                            Button("Done") {
                                 isPresentingEditView = false
                                 scrum.update(from: data)
                             }
                         }
                     }
             }
-            
         }
     }
 }

@@ -1,9 +1,6 @@
-//
-//  AVPlayer+Ding.swift
-//  Scrumdinger
-//
-//  Created by Nopphadon Phanwong on 18/7/22.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import Foundation
 import AVFoundation
